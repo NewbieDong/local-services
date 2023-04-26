@@ -1,6 +1,7 @@
 version: "3"
 services:
   subconverter:
+    network_mode: "host"
     image: stilleshan/subconverter
     container_name: subconverter
     ports:
